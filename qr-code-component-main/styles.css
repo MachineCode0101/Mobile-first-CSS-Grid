@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 30%;
+   
+}
+
+.container{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+
+img{
+    max-width: 92%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.backgroud{
+    background-color: rgb(255, 255, 255);
+    border-radius:  1rem;
+    max-width: 22rem;
+}
+
+h1{
+    font-size: clamp(14px,25px,25px);
+    font-weight: 700;
+}
+h3{
+    color: gray;
+    font-weight: 400;
+    font-size: 1.1rem;
+    
+}
+
+
+  .attribution {
+    font-size: 0.7rem;
+   }
